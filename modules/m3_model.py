@@ -170,7 +170,6 @@ def plot_prediction_comparison(y_true, y_pred_nn, y_pred_rf):
 
     save_path = "outputs/m3_prediction_comparison.png"
     plt.savefig(save_path, dpi=200)
-    plt.show()
     return save_path
 
 
@@ -187,7 +186,6 @@ def plot_loss_curve(history):
     plt.grid(alpha=0.3)
     save_path = "outputs/m3_loss_curve.png"
     plt.savefig(save_path, dpi=150)
-    plt.show()
     return save_path
 
 
