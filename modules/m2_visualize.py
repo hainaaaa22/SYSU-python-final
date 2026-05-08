@@ -32,9 +32,6 @@ def plot_time_pattern(df):
     save_path = "outputs/m2_time_pattern.png"
     plt.savefig(save_path, dpi=150)
 
-    # --- 检验代码（可删除）---
-    plt.show()
-    # --- 检验代码结束 ---
 
     return save_path
 
@@ -61,10 +58,6 @@ def plot_zone_hotmap(df):
     save_path = "outputs/m2_zone_top10.png"
     plt.savefig(save_path, dpi=150)
 
-    # --- 检验代码（可删除）---
-    plt.show()
-    # --- 检验代码结束 ---
-
     return save_path
 
 
@@ -90,9 +83,6 @@ def plot_fare_factors(df):
     save_path = "outputs/m2_fare_factors.png"
     plt.savefig(save_path, dpi=150)
 
-    # --- 检验代码（可删除）---
-    plt.show()
-    # --- 检验代码结束 ---
 
     return save_path
 
@@ -120,9 +110,6 @@ def plot_payment_tip_analysis(df):
     save_path = "outputs/m2_payment_tip.png"
     plt.savefig(save_path, dpi=150)
 
-    # --- 检验代码（可删除）---
-    plt.show()
-    # --- 检验代码结束 ---
 
     return save_path
 
